@@ -1,0 +1,28 @@
+{
+  "manifests": {
+    "walidboughdiri/yousign-bundle": {
+      "manifest": {
+        "bundles": {
+          "YousignBundle\\YousignBundle": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        }
+      },
+      "files": {
+        "config/packages/yousign.yaml": {
+          "contents": [
+            "yousign:",
+            "    baseUrl: 'https://staging-api.yousign.com'",
+            "    apiKey: 'changeme'",
+            "    workspace: 'changeme'"
+          ],
+          "executable": false
+        }
+      },
+      "ref": "58a6b6a626043353dc4f4e8217e957cf0e14fbc6"
+    }
+  }
+}

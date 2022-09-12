@@ -1,0 +1,14 @@
+{
+  "recipes": {
+    "walidboughdiri/yousign-bundle": [
+      "1.0"
+    ]
+  },
+  "branch": "main",
+  "is_contrib": true,
+  "_links": {
+    "repository": "github.com/walidboughdiri/yousign-recipes",
+    "origin_template": "{package}:{version}@github.com/walidboughdiri/yousign-recipes:main",
+    "recipe_template": "https://api.github.com/repos/walidboughdiri/yousign-recipes/contents/{package_dotted}.{version}.json"
+  }
+}
