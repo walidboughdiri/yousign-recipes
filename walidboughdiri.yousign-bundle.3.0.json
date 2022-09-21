@@ -24,7 +24,7 @@
         "YOUSIGN_BASEURL": "https://api.yousign.app/v3",
         "YOUSIGN_APIKEY": "%generate(secret)%"
       },
-      "ref": "58a6b6a626043353dc4f4e8217e957cf0e14fbc6"
+      "ref": "5bfea901208cfb6b59b5624a04076ed698e0cf22"
     }
   }
 }
